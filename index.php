@@ -43,7 +43,7 @@
 	</div>
 
 	<div id="footer">
-		<h3>Gerson Bernardo da Silva</h3>
+		
 	</div>
 </body>
 

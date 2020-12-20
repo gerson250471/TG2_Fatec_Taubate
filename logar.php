@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
     
@@ -24,10 +20,11 @@ session_start();
 	</div>
 
 	<div id="conteudo">
+		<h1>Login</h1>
             <form methodo="POST" action="processa.php">
-                <input type="email">
-                <input type="password">
-                <input type="submit">
+                <input type="email" placeholder="Usuário" name="email">
+                <input type="password"placeholder="Senha"name="senha">
+                <input type="submit" value="Acessar">
             </form>
 	</div>
 
