@@ -27,7 +27,9 @@ body{
 }
 
 /* Conteúdo Principal */
-
+input{
+	display: block;
+}
 
 
 
