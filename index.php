@@ -10,30 +10,41 @@
 </head>
 
 <body>
-	<div class="capa">
-		<img src="src/figuras/logo.jpg">
+	<div id="header">
+		<div class="capa">
+			<img src="src/figuras/logo.jpg">
+		</div>
 	</div>
-	
-	<div class="Botao-01">
-		<a href="missao.html"><button>Missão</button></a>
+
+	<div id="menu">
+		<div class="Botao-01">
+			<a href="missao.html"><button>Missão</button></a>
+		</div>
+		
+		<div class="Botao-02">
+			<a href="visao.html"><button>Visão</button></a>
+		</div>
+		
+		<div class="Botao-03">
+			<a href="valores.html"><button>Valores</button></a>
+		</div>
+		
+		<div class="Botao-04">
+			<a href="cadastrar.php"><button>Cadastrar</button></a>
+		</div>
+		
+		<div class="Botao-05">
+			<a href="logar.php"><button>Logar</button></a>
+		</div>
 	</div>
-	
-	<div class="Botao-02">
-		<a href="visao.html"><button>Visão</button></a>
+
+	<div id="conteudo">
+
 	</div>
-	
-	<div class="Botao-03">
-		<a href="valores.html"><button>Valores</button></a>
+
+	<div id="footer">
+		<h3>Gerson Bernardo da Silva</h3>
 	</div>
-	
-	<div class="Botao-04">
-		<a href="cadastrar.php"><button>Cadastrar</button></a>
-	</div>
-    
-	<div class="Botao-05">
-		<a href="logar.php"><button>Logar</button></a>
-	</div>
-	
 </body>
 
 </html>

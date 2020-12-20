@@ -1,17 +1,32 @@
 /* Corpo Geral */
-
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
 body{
 	background-color:rgb(242,247,250);
 }
 
 /* Cabeçalho */
-
-
-
-
-
+#header{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:20%;
+	display: block;
+}
 
 /* Menu Principal */
+#menu{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	width:18%;
+	height:60%;
+	color:white;
+	text-align:center;
+}
 
 button{
 border-radius:20px;
@@ -45,3 +60,13 @@ div{
 
 
 /* Rodapé */
+#footer{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(128,128,255);
+	display:block;
+	width:11%;
+	height:60%;
+	color:blue;
+	text-align:center;
+}

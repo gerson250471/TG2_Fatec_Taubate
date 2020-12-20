@@ -1,18 +1,50 @@
-html,body {
-  font-family: 'Open Sans', serif;
-  font-size: 14px;
-  font-weight: 300;
+/* Corpo Geral */
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
 }
-.hero.is-success {
-  background: #f2f7fa;
+body{
+	background-color:rgb(242,247,250);
 }
-.hero .nav, .hero.is-success .nav {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+/* Cabeçalho */
+#header{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:20%;
+	display: block;
 }
-input {
-  font-weight: 300;
+/* Menu Principal */
+#menu{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	width:18%;
+	height:60%;
+	color:white;
+	text-align:center;
 }
-p {
-  font-weight: 700;
+
+/* Conteúdo Principal */
+
+
+
+
+
+/* Conteúdo Secundário */
+
+
+
+
+/* Rodapé */
+#footer{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(128,128,255);
+	display:block;
+	width:11%;
+	height:60%;
+	color:blue;
+	text-align:center;
 }
