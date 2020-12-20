@@ -1,0 +1,47 @@
+/* Corpo Geral */
+
+body{
+	background-color:rgb(242,247,250);
+}
+
+/* Cabeçalho */
+
+
+
+
+
+
+/* Menu Principal */
+
+button{
+border-radius:20px;
+padding:10px;
+width:300px;	
+margin:8pix;
+background-color:gray;
+border:10px;
+font-size:35px;
+cursor:pointer;
+outline:0px;
+}
+
+button:hover{
+	color:white;
+}
+
+div{
+	padding:3px;
+}
+
+/* Conteúdo Principal */
+
+
+
+
+
+/* Conteúdo Secundário */
+
+
+
+
+/* Rodapé */
