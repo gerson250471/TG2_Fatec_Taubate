@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SISTEMA MOTOFRETE</title>
-	<link rel="stylesheet" href="css/capa.css">
+	<link rel="stylesheet" href="css/misao.css">
 	
 </head>
 
@@ -39,7 +39,7 @@
 	</div>
 
 	<div id="conteudo">
-
+		<img src="src/figuras/construcao.jpg">
 	</div>
 
 	<div id="footer">

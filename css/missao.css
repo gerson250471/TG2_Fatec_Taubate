@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(242,247,250);
+}
+
+div.header{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+}

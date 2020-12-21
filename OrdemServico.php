@@ -65,7 +65,7 @@
 									var latitude = posicion.coords.latitude;
 									var longitude = posicion.coords.longitude;
 
-									var imgURL = "https://maps.googleapis.com/maps/api/staticmap?center="+latitude+","+longitude+"&size=500x300&markers=color:red%7C"+latitude+","+longitude+"&key=AIzaSyBFLar0KAnYiqKMUTbWzgMvX_BQww2nDCc";
+									var imgURL = "https://maps.googleapis.com/maps/api/staticmap?center="+latitude+","+longitude+"&size=500x300&markers=color:red%7C"+latitude+","+longitude+"&key=your key aqui";
 
 									output.innerHTML ="<img src='"+imgURL+"'>";
 
