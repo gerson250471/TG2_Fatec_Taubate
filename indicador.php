@@ -10,7 +10,7 @@
 
 <body>
 	<div class="capa">
-		<img src="src/figuras/logo.jpg">
+		<a href="index.php"> <img src="src/figuras/logo.jpg"> </a>
 	</div>
 		<h2>Ambiente de Indicadores</h2>
 	

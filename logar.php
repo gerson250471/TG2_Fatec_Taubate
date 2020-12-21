@@ -11,7 +11,7 @@
 <body>
 <div id="header">
 		<div class="capa">
-			<img src="src/figuras/logo.jpg">
+		<a href="index.php"> <img src="src/figuras/logo.jpg"> </a>
 		</div>
 	</div>
 

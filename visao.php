@@ -7,6 +7,8 @@
     <title>Visão</title>
 </head>
 <body>
-    
+    <div>
+        <a href="index.php"> <img src="src/figuras/logo.jpg"> </a>
+    </div>
 </body>
 </html>

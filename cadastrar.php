@@ -11,8 +11,7 @@
 <body>
 <div id="cad-header">
 		<div class="capa">
-			<img src="src/figuras/logo.jpg">
-			<a href="index.php"><button>Home</button></a>
+			<a href="index.php"> <img src="src/figuras/logo.jpg"> </a>
 		</div>
 	</div>
 
