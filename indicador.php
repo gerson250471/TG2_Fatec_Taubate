@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>INDICADORES</title>
 	<link rel="stylesheet" href="css/indicador.css">
-	
 </head>
 
 <body>

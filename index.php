@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SISTEMA MOTOFRETE</title>
-	<link rel="stylesheet" href="css/capa.css">
+	<link rel="stylesheet" href="css/index.css">
 	
 </head>
 
@@ -36,6 +36,7 @@
 		<div class="Botao-05">
 			<a href="logar.php"><button>Logar</button></a>
 		</div>
+
 	</div>
 
 	<div id="conteudo">

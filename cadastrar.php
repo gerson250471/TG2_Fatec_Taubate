@@ -5,21 +5,22 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SISTEMA MOTOFRETE</title>
-	<link rel="stylesheet" href="css/cadastro.css">
+	<link rel="stylesheet" href="css/cadastrar.css">
 </head>
 
 <body>
-<div id="header">
+<div id="cad-header">
 		<div class="capa">
 			<img src="src/figuras/logo.jpg">
+			<a href="index.php"><button>Home</button></a>
 		</div>
 	</div>
 
-	<div id="menu">
+	<div id="cad-menu">
 		
 	</div>
 
-	<div id="conteudo">
+	<div id="cad-conteudo">
 		<h1>Cadastro</h1>
             <form methodo="POST" action="processa.php">
 				<input type="text" name="NivelAcesso" placeholder="Nivel de Acesso" maxlength="20">	
@@ -39,7 +40,7 @@
             </form>
 	</div>
 
-	<div id="footer">
+	<div id="cad-footer">
 
 	</div>    
 

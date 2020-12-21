@@ -48,6 +48,10 @@ div{
 	padding:3px;
 }
 
+div.botao-06.a{
+background-color: salmon;
+}
+
 /* Conteúdo Principal */
 
 
@@ -60,13 +64,3 @@ div{
 
 
 /* Rodapé */
-#footer{
-	margin:0px;
-	padding:0px;
-	background-color:rgb(128,128,255);
-	display:block;
-	width:11%;
-	height:60%;
-	color:blue;
-	text-align:center;
-}
