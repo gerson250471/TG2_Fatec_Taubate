@@ -1,3 +1,13 @@
+<?php
+    session_start();
+    if (!isset($_SESSION['sol_cpf'])) 
+    {
+        header("location: index.php");
+        exit;
+    }
+
+?>
+
 <!DOCTYPE html>
 <html>
     

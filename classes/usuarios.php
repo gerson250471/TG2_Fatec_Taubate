@@ -32,28 +32,27 @@ class Usuario
         {
             return false; //Cadastro Existente
         }
-        else()
+        else
         {
             //Caso não cadastrar
             $sql = $pdo->prepare("insert into tab_solicitante (sol_cpf, sol_nome, sol_email, sol_senha) values (:c, :n, :e, :s)");
             $sql->bindValue(":c", $cpf);
             $sql->bindValue(":e", $email);
             $sql->bindValue(":n", $nome);
-            $sql->bindValue(":s", $senha);
+            $sql->bindValue(":s", md5($senha));
             $sql->execute();
             return true; // Cadastro Realizado
         }
     }
-
     public function logar($email, $senha)
     {
         global $pdo;
         global $msgErro;
 
         // Verificar se email e senha estão cadastrados
-        $sql = $pdo->prepare("select sol_cpf from tab_solicitante where sol_emai = :e and senha = :s");
+        $sql = $pdo->prepare("select sol_cpf from tab_solicitante where sol_emai = :e and sol_senha = :s");
         $sql->bindValue(":e", $email);
-        $sql->bindValue(":s", $senha);
+        $sql->bindValue(":s",md5($senha));
         $sql->execute();
         if ($sql->rowcount() > 0) 
         {
